@@ -22,7 +22,7 @@ exports.activate = function(context) {
     testFn(1, 2);
 
     // 自动提示演示，在dependencies后面输入.会自动带出依赖
-    // this.dependencies.
+    //this.dependencies
 };
 
 /**

@@ -17,5 +17,9 @@ module.exports = function(context) {
     }));
 
     // 执行某个命令
-    // vscode.commands.executeCommand('命令', 'params1', 'params2');
+    vscode.commands.executeCommand('extension.demo.getCurrentFilePath').then(
+        result => {
+            console.log("result: ", result);
+        }
+    );
 };
